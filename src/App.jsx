@@ -5,7 +5,7 @@ import Meme from './components/Meme';
 function App() {
   return (
     <div className="App">
-      <Navbar/>
+      <Navbar />
       <Meme />
     </div>
   );
