@@ -49,4 +49,5 @@ main{
   padding-top: 1rem;
   margin-bottom: 2rem;
   padding-inline-end: 12.5rem;
+  border: solid 1px rgb(235, 225, 225); 
 }
