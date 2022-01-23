@@ -26,8 +26,8 @@ function Meme() {
                     value={meme.bottomText}
                     onChange={handleChange}
                 />
-                <button className='form--btn'><h3>Generate 🎮</h3></button>
             </form>
+            <button className='form--btn'><h3>Generate 🎮</h3></button>
             <div className="meme">
                 <h3 className='meme--txt'>{meme.topText}</h3>
                 <img src={meme.randomImage} alt="image" className='meme--img' />

@@ -25,13 +25,15 @@ main{
   padding-left: 3rem;
   padding-right: 3rem;
   cursor: pointer;
-  /* grid-column: 1/-1; */
-  align-self: center;
   border-style: none;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   margin-bottom: 2rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 .meme--img {
+  border-radius: 0.3rem;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -39,7 +41,7 @@ main{
 }
 .container{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-wrap: wrap;
 }
 .child{
@@ -49,9 +51,9 @@ main{
   margin-bottom: 2rem;
   padding-inline-end: 12.5rem;
   border: solid 1px rgb(235, 225, 225); 
+  border-radius: 0.4rem;
 }
 .meme{
-  border: 0.3rem solid #fc0000;
   position: relative;
 }
 .meme--txt{
