@@ -28,8 +28,11 @@ function Meme() {
                 />
                 <button className='form--btn'><h3>Generate 🎮</h3></button>
             </form>
-
-            <img src={meme.randomImage} alt="image" className='meme--img' />
+            <div className="meme">
+                <h3 className='meme--txt'>{meme.topText}</h3>
+                <img src={meme.randomImage} alt="image" className='meme--img' />
+                <h3 className='meme--txt' id='btm'>{meme.bottomText}</h3>
+            </div>
         </main>
     )
 }
